@@ -81,7 +81,7 @@ button:hover {
     letter-spacing: 5px;
 }
 
-.pro div {
+.pro div {  /* Faixa */
     background-color: #705656;
     width: 1000px;
     text-align: center;
@@ -99,7 +99,7 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     gap: 29.5px;
-    width: 100%;
+    max-width: 100%;
     justify-content: center;
 }
 
@@ -125,4 +125,25 @@ button:hover {
         max-width: 300px;
     }
 
+}
+
+.organo {
+    background-image: url(../img/organo.png);
+    background-size: auto 100%;
+    background-position: 5%;
+    background-repeat: no-repeat;
+    height: 195px;
+    width: 310px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: ease-in-out 0.3s;
+}
+
+.organo:hover {
+    background-image: url(../img/organo2.png);
+    transition: ease-in-out 0.3s;
 }
