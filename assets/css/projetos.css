@@ -127,6 +127,11 @@ button:hover {
 
 }
 
+.imagem-some {
+    height: 197px;
+    opacity: 0;
+}
+
 .organo {
     background-image: url(../img/organo.png);
     background-size: auto 100%;
